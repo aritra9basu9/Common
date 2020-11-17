@@ -8,14 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'EcomApp';
   name:string ="John Smith";
-  product ={
-    name: "Lenovo Laptop",
-    description: "Best Laptop",
-    price:222222
-  }
+ 
 
   public showPrice()
   {
-    return this.product.price;
+    return 22222;
   }
 }

@@ -1,0 +1,24 @@
+<h1> Sign In Form</h1>
+<form action ="" method="post">
+    Email: <input type="email" name="email" [(ngModel)]="user.email" placeholder="Enter Your Email"> <br/>
+    Password: <input type="password" name="password" [(ngModel)]="user.password" placeholder="Enter Your Password"> <br/>
+     <button (click)="submit()">Sign In</button>
+  </form>
+
+  <!-- Style Binding -->
+<!-- <div [ngStyle]="{'background-color': isActive? 'green' : 'red'}">
+<form action ="" method="post">
+  Email: <input type="email" name="email" [(ngModel)]="user.email" placeholder="Enter Your Email"> <br/>
+  Password: <input type="password" name="password" [(ngModel)]="user.password" placeholder="Enter Your Password"> <br/>
+   <button (click)="submit()">Sign In</button>
+</form>
+</div> -->
+
+<!-- class Binding -->
+ <!-- <div [ngClass]="isActive? 'class1': 'class2'">
+<form action ="" method="post">
+  Email: <input type="email" name="email" [(ngModel)]="user.email" placeholder="Enter Your Email"> <br/>
+  Password: <input type="password" name="password" [(ngModel)]="user.password" placeholder="Enter Your Password"> <br/>
+   <button (click)="submit()">Sign In</button>
+</form>
+</div>  -->

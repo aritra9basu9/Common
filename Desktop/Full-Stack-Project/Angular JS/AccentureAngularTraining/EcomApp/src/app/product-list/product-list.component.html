@@ -1,0 +1,33 @@
+<!-- Property Binding 1st way -->
+<!-- <ul>
+    <li> {{product.name}}</li>
+    <li> {{product.description}}</li>
+    <li> {{product.price}}</li>
+  
+  </ul> -->
+
+  <!-- Property Binding 2nd way -->
+  <!-- <h1 [innerText]="pageTitle"></h1>
+  <img [src]="imageURL" alt=""> -->
+
+    <!-- Event Binding  using template variable inpdata -->
+
+    <!-- <input type="text" [value]= "pageTitle" #inpdata>
+    <button (click)="submitAction(inpdata)">Submit</button> -->
+   
+    <!-- Two way data binding(combining event and property binding) Manual Way-->
+    <!-- <input type="text" [value]= "pageTitle" #inpdata>
+    <button (click)="submitAction1(inpdata)">Submit</button>
+    <h1>{{message}}</h1>    -->
+
+    <!-- Two way data binding with ngModule-->
+
+    <!-- <input type="text" name="commanText" [(ngModel)]= "commanText">
+    <h1>{{commanText}}</h1> -->
+
+    <!-- Fake Json Implementation -->
+    <!-- <ul>
+       <li *ngFor="let product of productList">
+           {{ product.name}} -- {{product.price}}
+          </li>
+    </ul> -->
